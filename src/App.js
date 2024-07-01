@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
-import Dashboard from './components/Dashboard';
 import Footer from './components/Footer';
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <Dashboard />
+        <p>Dashboard component removed.</p>
       </main>
       <Footer />
     </div>
@@ -18,3 +17,4 @@ function App() {
 }
 
 export default App;
+
